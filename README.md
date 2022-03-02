@@ -1,17 +1,14 @@
-# Keyauth-CPP-Example l By C0LL1DE
+# KeyAuth-CPP-Example
+KeyAuth CPP Example
 
-This is an example of intergrating https://keyauth.win/ API into a C++ Program.
-This was originally inspired by the default C++ Example they provide on their github
+Video on how to add KeyAuth to your own application https://youtu.be/GB4XW_TsHqA
 
-### What's new :
-- Fixed file managament {Code is in general more organised, seperate files for seperate category of functions}
-- Added XorStr Function
-- Added print output with colour {choose colour for your text, can be any colour you want in HEX}
-- Added DLL Injection Security {Credits to ShadowMonster99}
-- Added Hide Thread {Credits to Чихуахуа , Good for hiding against debuggers etc}
-- Organised some functions {For example download file is now a function that takes 2 paramaters - FileID & FileOutputLocation}
+Video to use Web Loader (control loader from customer panel) https://youtu.be/9-qgmsUUCK4
 
-### What may be to come :
-- More protection for download files {Downloading files from a server and destroying download packets}
-- More usermode protection {Checking for running debuggers, auto delete upon debugger etc}
-- Improvements to general program efficiency
+If you get an *The object or library file '' was created by a different version of the compiler* error, replace the library_x64.lib with this one https://cdn.keyauth.win/library_x64.lib
+
+**What is KeyAuth?**
+
+KeyAuth is an Open source authentication system with cloud hosting plans as well. Client SDKs available for C++, C#, Python, Rust, PHP, and VB.NET.
+KeyAuth several unique features such as memory streaming, webhook function where you can send requests to API without leaking the API, discord webhook notifications, ban the user securely through the application at your discretion.
+Feel free to join https://keyauth.win/discord/ if you have questions or suggestions.
